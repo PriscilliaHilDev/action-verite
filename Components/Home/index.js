@@ -48,7 +48,8 @@ const index = ({navigation}) => {
 
         <View style={styles.container}>
               <View style={styles.containerBackground}>
-                    <ImageBackground source={image} 
+                    <ImageBackground                     source={require('../../assets/images/angel-1294116_960_720.png')}
+
                         style={styles.image}
                         resizeMode="cover" >
                             <View style={styles.title}>
